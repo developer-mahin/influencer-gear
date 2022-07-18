@@ -303,6 +303,9 @@ footer {
     background: #0A0826;
     padding: 40px 0px;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer h1 {
@@ -423,9 +426,6 @@ a.social-button:hover {
     }
     .flex-item {
         width: 100%;
-    }
-    .container {
-        overflow: ;
     }
     .brand {
         overflow: hidden;
