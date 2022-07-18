@@ -1,10 +1,10 @@
 /*---------------
-Goole Font
+    Goole Font
 -----------------*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 /*-----------------
-common CSS
+    common CSS
 -----------------*/
 
 *{
@@ -13,7 +13,6 @@ common CSS
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #AAAAAA;
 }
 
 main{
@@ -28,3 +27,118 @@ main{
     width: 1140px;
 }
 
+/*----------------------
+    Header start
+-------------------*/
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3a3a3a;
+    font-weight: 600;
+}
+
+/*----------------------
+    Header End
+-------------------*/
+
+/*----------------------
+    Banner start
+-------------------*/
+
+.banner-description {
+    margin: auto;
+}
+
+.banner-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item {
+    width: 50%;
+}
+
+.banner-description h1 {
+    font-size: 52px;
+    color: #3A3A3A;
+}
+
+.banner-description p {
+    font-weight: 600;
+    margin: 10px 0px 25px 0px;
+}
+
+.banner-description a {
+    text-decoration: none;
+    background: #E02C6D;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.banner-description a i {
+    margin-left: 10px;
+}
+
+.banner-image {
+    position: relative;
+}
+
+img.main-camera {
+    position: absolute;
+    left: 0px;
+}
+
+.banner-image img {
+    width: 100%;
+}
+
+/*----------------------
+    Banner End
+-------------------*/
+
+/*-----------------
+    Band Start
+------------------*/
+.brand-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.brand {
+    margin: 60px 0px;
+    border-bottom: 2px solid #ddd;
+    border-top: 2px solid #ddd;
+    padding: 30px 0px;
+}
+/*-----------------
+    Band End
+------------------*/
