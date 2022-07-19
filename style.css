@@ -139,7 +139,7 @@ img.main-camera {
 ------------------*/
 .brand-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -358,7 +358,6 @@ a.social-button:hover {
 @media(max-width:1024px) {
     .container{
         width: 1024px;
-        padding: 0px 10px;
     }
 
     .dasktop-header {
@@ -376,16 +375,16 @@ a.social-button:hover {
         justify-content: space-between;
     }
     .mobile-menu i {
-        font-size: 3vw;
+        font-size: 4vw;
     }
     .mobile-logo a {
         text-decoration: none;
         color: #333;
-        font-size: 2vw;
+        font-size: 4vw;
         font-weight: 600;
     }
     .mobile-cart i {
-        font-size: 2vw;
+        font-size: 4vw;
     }
 }
 
@@ -398,7 +397,7 @@ a.social-button:hover {
     }
 
     .banner-description.flex-item h1 {
-        font-size: 5vw;
+        font-size: 28px;
     }
     
     .brand-item {
@@ -410,7 +409,7 @@ a.social-button:hover {
     }
     
     .featured-products-description h1 {
-        font-size: 4vw;
+        font-size: 8vw;
     }
 }
 
@@ -442,5 +441,15 @@ a.social-button:hover {
     }
     .featured-products-image {
         margin-top: 25px;
+    }
+}
+
+@media(max-width:360px){
+    .container{
+        width: 360px;
+    }
+
+    .banner-description {
+        text-align: center;
     }
 }
